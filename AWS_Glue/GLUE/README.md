@@ -39,4 +39,16 @@ Is a metadata repository
 ### Glue Workflow
 * Workflow is used for orchestration
 * Used when you want to orchestrate the triggers
-
+### Glue Data 
+* Visual data preparation tool, no need to write code
+* For traditional data pipelines and feature engineering
+* Over 250 transformations to curate data for AI/ML by up to 80% faster
+* Data profiling,Data quality ruleset and data linage with automated job scheduling 
+#### Key concept in data brew
+* Data set : Data
+* Data Profiling : You can run data profiling job to profile the data,Existing shape of the data
+* Project : To perform transformation in your dataset 
+* Recipe : To build a list of set ordered transformations which can be reused 
+* Job : To run the transformation on the data set
+* Data linage : Visual interface to show how data is flowing 
+* Data quality : 
