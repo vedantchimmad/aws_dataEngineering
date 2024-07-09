@@ -30,3 +30,9 @@ Infrastructure as a code
   * Leverage existing templates on the web
   * Leverage the documentation
 
+### How cloudFormation works
+* Templates must be uploaded in S3 and then referenced in cloudformation
+* To update template, we can't edit previous ones.we have to re-uplod new version of the template to AWS
+* Stacks are identified by name 
+* Deleting a stack deletes every single artifact that was created by the CloudFormation
+
