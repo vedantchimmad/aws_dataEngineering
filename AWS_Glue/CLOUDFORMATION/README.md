@@ -35,4 +35,28 @@ Infrastructure as a code
 * To update template, we can't edit previous ones.we have to re-uplod new version of the template to AWS
 * Stacks are identified by name 
 * Deleting a stack deletes every single artifact that was created by the CloudFormation
+### Understanding the CloudFormation template options
+* Tags : Add tags to appear in S3
+* Permissions : use role to create and modify and delete resource stack
+* Notification options : Add SNS topic and subscribe to get alert based on delete and update 
+* Timeout : Wait creating next stack
+* Rollback on failure : Rollback all the resource created after failure 
+* Rollback configuration(Monitering time and CloudWatch Alarm)
+* Stack Policy
+* Termination protection : Protect accidental deletion 
+* Quick-Start Link
+>[!NOTE]
+> 
+> Application composer service will help you to create aws infrastructure using graphical interface
 
+### CloudFormation building blocks
+* AWSTemplateFormatVersion : Identifies the capability of the template 
+* Description : Comments about the template 
+* Transform : specifies one or more Macros that used to process the template
+* Metadata : AWS resource declared in the template 
+* Parameters : The dynamic inputs for template 
+* Mappings : The static variable for template 
+* Outputs : References to what has been created 
+* Conditionals : List of conditions to perform resource creation 
+* Rules : Validate a parameter during stack creation/update
+* 
